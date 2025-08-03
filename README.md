@@ -1,7 +1,7 @@
 # Games
 A list of HTML5 games I have made
 
-## Fly Pinata
+## Fly Piñata
 Repo: https://github.com/Paul-Andre/LD24
 Play Now: https://paul-andre.github.io/LD24/
 
