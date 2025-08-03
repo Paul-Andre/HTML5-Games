@@ -1,4 +1,4 @@
-# My HTML5 Games/Demos
+# [My HTML5 Games/Demos](https://paul-andre.github.io/HTML5-Games/)
 
 ## Colors Popper!
 [<img src="Popper.png" alt="Colors Popper Screenshot" width="480">](https://paul-andre.github.io/ShapesPopper/publicMin/)
