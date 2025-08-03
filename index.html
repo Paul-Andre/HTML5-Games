@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My HTML5 Games/Demos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .game-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s;
+    }
+    .game-card:hover {
+      transform: translateY(-5px);
+    }
+    .game-card img {
+      width: 100%;
+      display: block;
+    }
+    .game-card-content {
+      padding: 1rem;
+      text-align: center;
+    }
+    .game-card-content h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+    .buttons a {
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      background-color: #007bff;
+      transition: background-color 0.2s;
+    }
+    .buttons a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My HTML5 Games/Demos</h1>
+  </header>
+
+  <main class="games-grid">
+    <div class="game-card">
+      <a href="https://paul-andre.github.io/LD24/" target="_blank"><img src="Pinata.png" alt="Fly Piñata Screenshot"></a>
+      <div class="game-card-content">
+        <h2>Fly Piñata</h2>
+        <div class="buttons">
+          <a href="https://paul-andre.github.io/LD24/" target="_blank">Play Now</a>
+          <a href="https://github.com/Paul-Andre/LD24" target="_blank">Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <a href="https://paul-andre.github.io/ShapesPopper/publicMin/" target="_blank"><img src="Popper.png" alt="Colors Popper Screenshot"></a>
+      <div class="game-card-content">
+        <h2>Colors Popper</h2>
+        <div class="buttons">
+          <a href="https://paul-andre.github.io/ShapesPopper/publicMin/" target="_blank">Play Now</a>
+          <a href="https://github.com/Paul-Andre/ShapesPopper" target="_blank">Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <a href="https://paul-andre.github.io/spinTurret/" target="_blank"><img src="SpinTurret.png" alt="SpinTurret Screenshot"></a>
+      <div class="game-card-content">
+        <h2>SpinTurret</h2>
+        <div class="buttons">
+          <a href="https://paul-andre.github.io/spinTurret/" target="_blank">Play Now</a>
+          <a href="https://github.com/Paul-Andre/spinTurret" target="_blank">Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <a href="https://paul-andre.github.io/sacrifice-walls/" target="_blank"><img src="Sacrifice.png" alt="Sacrifice Walls Screenshot"></a>
+      <div class="game-card-content">
+        <h2>Sacrifice Walls</h2>
+        <div class="buttons">
+          <a href="https://paul-andre.github.io/sacrifice-walls/" target="_blank">Play Now</a>
+          <a href="https://github.com/Paul-Andre/sacrifice-walls" target="_blank">Repo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <a href="https://unflipgame.com/" target="_blank"><img src="Unflip.png" alt="Unflip/Unsquare Screenshot"></a>
+      <div class="game-card-content">
+        <h2>Unflip/Unsquare</h2>
+        <div class="buttons">
+          <a href="https://unflipgame.com/" target="_blank">Play Now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
